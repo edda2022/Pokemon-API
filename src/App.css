@@ -1,0 +1,78 @@
+/* Searchbar */
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+}
+
+.searchform {
+    width: 60%;
+    gap: 2em;
+}
+
+/* main */
+
+
+.main {
+    padding: 3rem;
+    background-color: rgba(226, 208, 178, 0.209);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 88vh;
+
+}
+
+.pokemons {
+    padding: 2em;
+    margin: 2em 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: rgba(255, 200, 0, 0.926);
+}
+  
+.pokemon {
+    padding: 1rem;
+    width: 15%;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: rgba(255, 200, 0, 0.926);
+}
+
+.pokemonname {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+
+
+.pokemoncard {
+    justify-content: center;    
+    align-items: center;
+}
+.backbuttondiv {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.errorpage {
+    min-height: 60vh;
+}
+
+ a.page-link  {
+    color: gray;
+}
+
+.pagination {
+    gap: 4px;
+}
